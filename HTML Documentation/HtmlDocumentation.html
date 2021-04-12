@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="HtmlDocumentation.css" type="text/css" rel="stylesheet">
+    <title>HTML Documentation</title>
+</head>
+<body>
+    <div class="image">
+        <img src="unnamed.jpg"/>
+    </div>
+    <div class="Table1">
+       <table>
+            <thead>
+                <tr>
+                    <th><h2><em>HTML<br>DOCUMENTATION</em></h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#Introduction">Introduction</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#HTML Structure">HTML Structure</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#HTML Elements">HTML Elements</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#HTML Attributes">HTML Attributes</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#HTML Tables">HTML Tables</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#HTML Forms">HTML Forms</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#Semantic HTML">Semantic HTML</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="main">
+        <div id="Introduction">
+            <h2>Introduction</h2>
+                <p>HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. Markup language is used to define the text document within tag which defines the structure of web pages. This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly. Most markup languages (e.g. HTML) are human readable. Language uses tags to define what manipulation has to be done on the text.<br>HTML is a markup language used by the browser to manipulate text, images and other content, in order to display it in the required format. HTML was created by Tim Berners-Lee in 1991. The first ever version of HTML was HTML 1.0, but the first standard version was HTML 2.0, published in 1999.</p>
+                <table class="Table2">
+                    <thead>
+                        <tr>
+                            <th>HTML Version</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML 1.0</td>
+                            <td>1991</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 2.0</td>
+                            <td>1995</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 3.2</td>
+                            <td>1997</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 4.01</td>
+                            <td>1997</td>
+                        </tr>
+                        <tr>
+                            <td>XHTML</td>
+                            <td>2000</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 5</td>
+                            <td>2014</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <br>
+        <br>
+        <div id="HTML Structure">
+            <h2>HTML Structure</h2>
+                <p>The basic structure of an HTML page is laid out below. It contain the essential building-block elements 
+                (i.e. doctype declaration, html, head, title, and body elements) upon which all webpages are created.</p>
+            
+                    <img src="Untitled-drawing-1-6.png"/>
+                
+               <p><em>An HTML document can be created using any text editor . Save the text file using <strong>.html</strong> or <strong>.htm.</strong> Once saved as an HTML document, the file can be opened 
+                 as a webpage in the browser.</em></p>
+         </div>
+        <br>
+        <br>
+        <div id="HTML Elements">
+            <h2>HTML Elements</h2>
+                <p>HTML uses predefined tags and elements which tell the browser how to properly display the content. Remember to
+                   include closing tags. If omitted, the browser applies the effect of the opening tag until the end of page. </p>
+                <img src="Tag.png"/>
+                <ul>
+                    <li><h3>&lthtml&gt HTML Element</h3></li>
+                         <p>The <strong>&lthtml&gt</strong> element, the root of an HTML document, should be added after the !DOCTYPE declaration. All content/structure for an HTML
+                            document should be contained between the opening and closing <html> tags.</p>
+                     <br>
+                    <li><h3>&lthead&gt Head Element</h3></li>
+                        <p>The <strong>&lthead&gt</strong> element contains general information about an HTML page that isn’t displayed on the page itself. This information is
+                     called metadata and includes things like the title of the HTML document and links to stylesheets.</p>
+                     <br>
+                <li><h3>&ltbody&gt Body Element</h3></li>
+                <p>The <strong>&ltbody&gt</strong> element represents the content of an HTML document. Content inside <strong>&ltbody&gt</strong> tags are rendered on the web
+                 browsers.</p>
+                 <br>
+                <li><h3>&lth1&gt-&lth6&gt Heading Elements</h3></li>
+                <p>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <strong>&lth1&gt</strong> to the lowest
+                    level <strong>&lth6&gt</strong>.</p>
+                    <br>
+                <li><h3>&ltp&gt Paragraph Element</h3></li>
+                <p>The <strong>&ltp&gt</strong> paragraph element contains and displays a block of text.</p>
+                <br>
+                <li><h3>&ltli&gt List Item Element</h3></li>
+                    The <li> list item element create list items inside:
+                    
+                    Ordered lists <ol>
+                    Unordered lists <ul>
+                 </ul>
+            
+        </div>
+        <br>
+        <br>
+        <div id="HTML Tables">
+            <h2>HTML Tables</h2>
+            <br>
+            <ul>
+                <li><h3>&lttable&gt Table Element</h3></li>
+                <p>In HTML, the <strong>&lttable&gt</strong> element has content that is used to represent a two-dimensional table made of rows and columns.</p>
+                <br>
+                <li><h3>&lttbody&gt Table Body Element</h3></li>
+                <p>The table body element, <strong>&lttbody&gt</strong>, is a semantic element that will contain all table data other than table heading and table footer
+                   content. If used, <strong>&lttbody&gt</strong> will contain all table row <strong>&lttr&gt</strong> elements, and indicates that <strong>&lttr&gt</strong> elements make up the body of the table.
+                   <strong>&lttable&gt</strong> cannot have both <strong>&lttbody&gt</strong> and <strong>&lttr&gt</strong> as direct children.
+                   <br>
+                <li><h3>&ltthead&gt Table Head Element</h3></li>
+                <p>The table head element, <strong>&ltthead&gt</strong>, defines the headings of table columns encapsulated in table rows.</p>
+                <br>
+                <li><h3>&lttr&gt Table Row Element</h3></li>
+                <p>The table row element, <strong>&lttr&gt</strong>, is used to add rows to a table before adding table data and table headings.</p> 
+                <br>
+                <li><h3>&ltth&gt Table Heading Element</h3></li>
+                <p>The table heading element, <strong>&ltth&gt</strong>, is used to add titles to rows and columns of a table and must be enclosed in a table row element, 
+                   <strong>&lttr&gt</strong>.</p>
+                   <br>
+                <li><h3>&lttd&gt Table Data Element</h3></li>
+                <p>The table data element, <strong>&lttd&gt</strong>, can be nested inside a table row element, <strong>&lttr&gt</strong>, to add a cell of data to a 
+                    table.</p>
+                    <br>
+                <li><h3>&lttbody&gt Table Body Element</h3></li>
+                <p>The table body element, <strong>&lttbody&gt</strong>, is a semantic element that will contain all table data other than table heading and table footer
+                   content. If used, <strong>&lttbody&lt</strong> will contain all table row <strong>&lttr&gt</strong> elements, and indicates that 
+                   <strong>&lttr&gt</strong> elements make up the body of the table. <strong>&lttable&gt</strong> cannot have both <strong>&lttbody&gt</strong>
+                   and <strong>&lttr&gt</strong> as direct children.</p>
+                   <br>
+                <li><h3>colspan Attribute</h3></li>
+                <p>The colspan attribute on a table header <strong>&ltth&gt</strong> or table data <strong>&lttd&gt</strong> element indicates how many columns that 
+                   particular cell should span within the table. The colspan value is set to 1 by default and will take any positive integer between 1 and 1000.</p>
+                   <br>
+                <li><h3>rowspan Attribute</h3></li>
+                <p>Similar to colspan, the rowspan attribute on a table header or table data element indicates how many rows that particular cell should span within the table. 
+                    The rowspan value is set to 1 by default and will take any positive integer up to 65534.</p>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div id="HTML Forms">
+            <h2>HTML Forms</h2>
+            <ul>
+            <li><h3>&ltinput&gt: Checkbox Type</h3></li>
+               <p>When using an HTML input element, the <strong>type="checkbox"</strong> attribute will render a single checkbox item. To create a group of checkboxes 
+               related to the same topic, they should all use the same name attribute. Since it’s a checkbox, multiple checkboxes can be selected for the same topic</p>
+               <br>
+               <li><h3>&lttextarea&gt Element</h3></li>
+                <p>The textarea element is used when creating a text-box for multi-line input (e.g. a comment section). The element supports the rows and cols attributes
+                 which determine the height and width, respectively, of the element.</p>
+                <p>When rendered by the browser, textarea fields can be stretched/shrunk in size by the user, but the rows and cols attributes determine the initial size.</p>
+                <br>
+                <li><h3>&ltform&gt Element</h3></li>
+                <p>The HTML <strong>&ltform&gt</strong> element is used to collect and send information to an external source.</p>
+                <p><strong>&ltform&gt</strong> can contain various input elements. When a user submits the form, information in these input elements is passed to the source 
+                which is named in the action attribute of the form.</p>
+                <br>
+                <li><h3>&ltinput&gt: Number Type</h3></li>
+                <p>HTML input elements can be of type number. These input fields allow the user to enter only numbers and a few special characters inside the field.</p>
+                <br>
+                <li><h3>&ltinput&gt Element</h3></li>
+                <p>The HTML <strong>&ltinput&gt</strong> element is used to render a variety of input fields on a webpage including text fields, checkboxes,
+                 buttons, etc. <strong>&ltinput&gt</strong> element have a type attribute that determines how it gets rendered to a page.</p>
+                 <br>
+                <li><h3>&ltinput&gt: Range Type</h3></li>
+                <p>A slider can be created by using the type="range" attribute on an HTML input element. The range slider will act as a selector between a minimum 
+                 and a maximum value. These values are set using the min and max attributes respectively. The slider can be adjusted to move in different steps or 
+                 increments using the step attribute.</p>
+                 <br>
+                <li><h3>&ltselect&gt Element</h3></li>
+                <p>The HTML <strong>&ltselect&gt</strong> element can be used to create a dropdown list. A list of choices for the dropdown list can be created using one or
+                 more <strong>&ltoption&gt</strong> elements. By default, only one <strong>&ltoption&gt</strong> can be selected at a time.</p>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div id="Semantic HTML">
+            <h2>Semantic HTML</h2>
+            <p>Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have any meaning as to what it does or what content goes
+               in it. An element such as <strong>&ltdiv&gt</strong> was used as a general-purpose element to create things from headers to footers to articles. With Semantic HTML we were 
+               introduced to elements that tell developers and browsers exactly what it does and what content should go in it.</p>
+            
+            <ul>
+                <li><h3>Element Placement</h3></li>
+                <p>Semantic HTML introduces elements that can tell developers exactly what the element does or where it’s placed based on the name of that element. Some of
+                these elements are <strong>&ltheader&gt</strong> , <strong>&ltnav&gt</strong>, <strong>&ltmain&gt</strong>, and <strong>&ltfooter&gt</strong>. <strong>&ltheader&gt
+                </strong> describes the content at the top of the page <strong>&ltbody&gt</strong>. It may include a logo,
+                navigational links or a search bar. <strong>&ltnav&gt</strong> encapsulates the page’s navigational links. It is often placed inside the 
+                <strong>&ltheader&gt</strong> or <strong>&ltfooter&gt</strong>. <strong>&ltmain&gt</strong>
+                encapsulates the main content of a page between the header/navigation and the footer areas. </strong>&ltfooter&gt</strong> includes the page’s footer content at the bottom of 
+                the <strong>&ltbody&gt</strong>.</p>
+                <br>
+                <li><h3>Embedding media</h3></li>
+                <p>Semantic HTML introduces us to <strong>&ltvideo&gt</strong>, <strong>&ltaudio&gt</strong> and <strong>&ltembed&gt</strong>. <strong>&ltvideo&gt</strong> allows us to add videos to our website. <strong>&ltaudio&gt</strong> allows us to implement audio 
+                into our website. <strong>&ltembed&gt</strong> can be used to implement any type of media. These elements are universal in that they all use the src attribute to link
+                the source of the content. <strong>&ltvideo&gt</strong> and <strong>&ltaudio&gt</strong> requires a closing tag while <strong>&ltembed&gt</strong> is a self-closing tag.</p>
+                <br>
+                <li><h3>&ltfigure&gt and &ltfigcaption&gt</h3></li>
+                <p>The <strong>&ltfigure&gt</strong> element is used to encapsulate media such as an image, diagram. or code snippet. The <strong>&ltfigcaption&gt</strong> element is used to describe the media
+                encapsulated within the <strong>&ltfigure&gt</strong> element. Developers will normally use <strong>&ltfigcaption&gt</strong> within the <strong>&ltfigure&gt</strong> element to group the media and description.
+                This way, if a developer decides to change the position of the media, the description will follow along with it.</p>
+                <br>
+                <li><h3>&ltsection&gt and &ltarticle&gt</h3></li>
+                <p><strong>&ltsection&gt</strong> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. <strong>&ltarticle&gt</strong> holds content that
+                makes sense on its own such as articles, blogs, and comments. Generally developers will use <strong>&ltsection&gt</strong> to define a theme for the webpage and use 
+                <strong>&ltarticle&gt</strong> to write independent content for that theme. This does not mean that <strong>&ltarticle&gt</strong> has to be used with <strong>&ltsection&gt</strong>.</p>
+                <br>
+                <li><h3>&ltaside&gt Aside Element</h3></li>
+                <p>The <strong>&ltaside&gt</strong> element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content.
+                Usually, this information would be in a sidebar or a location where it doesn’t obstruct the main piece of content. An example of this would be an <strong>&ltarticle&gt</strong>
+                that discusses how to take care of a dog and next to the article an ad would appear advertising a dog grooming product.</p>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
